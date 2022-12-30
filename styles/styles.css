@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+header {
+  background-color: #c4c4c4;
+}
+.nav {
+  width: 360px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 50px;
+  color: #333333;
+  background-color: #c4c4c4;
+}
+.nav > li {
+  margin-right: 30px;
+}
+.logo {
+  float: left;
+  margin-top: 20px;
+}
+.contacts {
+  float: right;
+  margin-top: 40px;
+}
+.logo-contacts {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.call {
+  width: 170px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 40px;
+  border-color: #f13c6e;
+  margin-left: 40px;
+}
+.clear {
+  clear: both;
+}
+
+.menu {
+  width: 584px;
+
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+.menu li {
+  margin-right: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.super-chair {
+  width: 100%;
+}
+.cards {
+  width: 1920px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.card {
+  width: 255;
+  height: 363px;
+}
