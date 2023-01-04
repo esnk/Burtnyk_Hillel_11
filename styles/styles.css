@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -123,7 +123,14 @@ hr {
   line-height: 56px;
   color: #ffffff;
 }
-
+.font-400-12-footer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #828282;
+  margin:25px 0px ;
+}
 .font-400-14-w {
   font-style: normal;
   font-weight: 400;
@@ -151,6 +158,19 @@ hr {
   color: #ffffff;
   font-weight: 400;
   margin: 25px 0px;
+}
+.font-400-12 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 28px;
+  color: #828282;
+}
+.font-500-16 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .font-500-21 {
@@ -221,6 +241,15 @@ hr {
   border-color: #f13c6e;
   margin: 40px 0px 40px 40px;
 }
+.call-back-button-footer {
+  width: 170px;
+  height: 40px;
+  border-radius: 40px;
+  border-style: solid;
+  background-color: #ffffff;
+  border-color: #f13c6e;
+  margin: 40px 0px 40px 40px;
+}
 
 input {
   width: 225px;
@@ -239,4 +268,20 @@ input {
   height: 358px;
   border-collapse: collapse;
   border-color: #efefef;
+}
+.footer-nav {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 60px 30px 60px 0px;
+}
+.footer-hr {
+  margin: 30px 0px 25px 0px;
+  width: 250px;
+}
+.footer-icon {
+  margin: 37px 20px 28px 0px;
+}
+.footer-contacts {
+  margin: 50px 0px 51px 0px;
 }
