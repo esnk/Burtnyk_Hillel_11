@@ -1,66 +1,344 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles/styles.css" />
-    <title>Beauty</title>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul class="nav">
-          <li type="none"><a href="#">Delivery</a></li>
-          <li type="none"><a href="#">Payment</a></li>
-          <li type="none"><a href="#">Reviews</a></li>
-          <li type="none"><a href="#">FAQ</a></li>
-          <li type="none"><a href="#">Contacts</a></li>
-        </ul>
-      </nav>
-    </header>
-    <section class="logo-contacts">
-      <div class="logo">
-        <a href="#"><img src="image/Group 2.png" alt="Logo" /></a>
-      </div>
-      <div class="contacts">
-        <a href="tel:1 (213) 123-45-67">1 (213) 123-45-67</a>
-        <button class="call"><a href="#">Call back</a></button>
-      </div>
-      <div class="clear"></div>
-    </section>
-    <hr />
 
-    <ul class="menu">
-      <li type="none"><a href="#">Salon</a></li>
-      <li type="none"><a href="#">Barbershop</a></li>
-      <li type="none"><a href="#">Manicure</a></li>
-      <li type="none"><a href="#">Pedicure</a></li>
-      <li type="none"><a href="#">Massage</a></li>
-      <li type="none"><a href="#">Furniture</a></li>
-    </ul>
-    <div class="super-chair">
-      <img
-        src="/image/Rectangle 2.png"
-        alt="super chair"
-        width="1920px"
-        height="604px"
-      />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>Beauty</title>
+</head>
+
+<body>
+  <header class="bg-grey">
+    <nav class="width-360">
+      <ul class="flex">
+        <a href="#">
+          <li>Delivery</li>
+        </a>
+        <a href="#">
+          <li>Payment</li>
+        </a>
+        <a href="#">
+          <li>Reviews</li>
+        </a>
+        <a href="#">
+          <li>FAQ</li>
+        </a>
+        <a href="#">
+          <li>Contacts</li>
+        </a>
+      </ul>
+    </nav>
+  </header>
+  <section class="width-1110">
+    <div class="float-left beauty">
+      <a href="#">
+        <img src="image/Group 2.png" alt="Beauty" />
+      </a>
     </div>
-    <section class="cards">
-        <h3>Special offers</h3>
-        <div class="card">
-            <img src="/image/Rectangle 4.png" alt="green-chair" width="126px" height="166px">
-            <p>Hairdressing chair "Norm" hydraulic</p>
-        </div>
+    <div class="float-right flex">
+      <div class="tell"><a href="tel:1 (213) 123-45-67">1 (213) 123-45-67</a></div>
+      <div>
+        <a href="#"><button class="call-back-button ">Call back</button></a>
+      </div>
+    </div>
+  </section>
+  <hr class="clear">
+
+  <div class="width-584 font-400-16">
+
+    <ul class="flex ">
+      <a href="#">
+        <li>Salon</li>
+      </a>
+      <a href="#">
+        <li>Barbershop</li>
+      </a>
+      <a href="#">
+        <li>Manicure</li>
+      </a>
+      <a href="#">
+        <li>Pedicure</li>
+      </a>
+      <a href="#">
+        <li>Massage</li>
+      </a>
+      <a href="#">
+        <li>Furniture</li>
+      </a>
+    </ul>
+  </div>
+  <section class="bg-pink">
+    <div class="relative ">
+      <img src="image/Rectangle 2.png" alt="Super chair" width="1920px" height="604" />
+      <div class="absolute">
+        <h2 class="font-700-48">Super chair</h2>
+        <p class="font-400-14-w">
+          The text of the action always reflects the <br> essence, and not just <br>
+          chatter, so be careful
+        </p>
+        <a href="#"><button class="more-button">More</button></a>
+      </div>
+    </div>
+  </section>
+  </section>
+  <section class="bg-grey">
+
+    <h3 class="width-1110 font-700-24">Special offers</h3>
+    <section class="width-1110 flex">
+
+      <div class="card">
+        <a href="#"><img src="image/Rectangle 4.png" alt="green chair" width="125" height="166" />
+          <p class="font-400-14">Hairdressing chair "Norm" <br> hydraulic</p>
+          <p class="font-500-21">$300</p>
+          <button class="card-button">Buy</button>
+        </a>
+      </div>
+      <div class="card">
+        <a href="#"><img src="image/Rectangle 4.png" alt="green chair" width="125" height="166" />
+          <p class="font-400-14">Hairdressing chair "Norm" <br> hydraulic</p>
+          <p class="font-500-21">$300</p>
+          <button class="card-button">Buy</button>
+        </a>
+      </div>
+      <div class="card">
+        <a href="#"><img src="image/Rectangle 4.png" alt="green chair" width="125" height="166" />
+          <p class="font-400-14">Hairdressing chair "Norm" <br> hydraulic</p>
+          <p class="font-500-21">$300</p>
+          <button class="card-button">Buy</button>
+        </a>
+      </div>
+      <div class="card">
+        <a href="#"><img src="image/Rectangle 4.png" alt="green chair" width="125" height="166" />
+          <p class="font-400-14">Hairdressing chair "Norm" <br> hydraulic</p>
+          <p class="font-500-21">$300</p>
+          <button class="card-button">Buy</button>
+        </a>
+      </div>
     </section>
-  </body>
+    <section class="width-1110 flex">
+      <div class="bg-pink width-540 flex mr-top-bot-100">
+        <div class="ml">
+          <h4 class="font-700-18-w">Get bonuses and gifts</h4>
+          <p class="font-400-14-w">Every month we play <br> $1000 for our clients</p>
+          <input type="email" name="Email" id="" placeholder="Enter your e-mail" />
+        </div>
+        <div class="mr-email">
+          <img src="image/Group.png" alt="email" width="140" height="106" />
+        </div>
+      </div>
+
+      <div class="bg-pink width-540 flex mr-top-bot-100 ">
+        <div class="ml">
+          <h4 class="font-700-18-w">Visit us</h4>
+          <p class="font-400-14-w">Over 300 stores <br> throughout the USA</p>
+          <a href="#"><button class="car-button">Store map</button></a>
+        </div>
+        <div class="car"> <img src="image/Vector-car.png" alt="car" width="188" height="100" /></div>
+      </div>
+    </section>
+
+    <table class=" bg-white impuls" border="1">
+      <tr>
+        <td>
+          <a href="#"><img src="image/image.png" alt="impuls" width="149" height="49" /></a>
+        </td>
+        <td>
+          <a href="#"><img src="image/image.png" alt="impuls" width="149" height="49" /></a>
+        </td>
+        <td>
+          <a href="#"><img src="image/image.png" alt="impuls" width="149" height="49" /></a>
+        </td>
+        <td>
+          <a href="#"><img src="image/image.png" alt="impuls" width="149" height="49" /></a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="#"><img src="image/image.png" alt="impuls" width="149" height="49" /></a>
+        </td>
+        <td>
+          <a href="#"><img src="image/image.png" alt="impuls" width="149" height="49" /></a>
+        </td>
+        <td>
+          <a href="#"><img src="image/image.png" alt="impuls" width="149" height="49" /></a>
+        </td>
+        <td>
+          <a href="#"><img src="image/image.png" alt="impuls" width="149" height="49" /></a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="#"><img src="image/image.png" alt="impuls" width="149" height="49" /></a>
+        </td>
+        <td>
+          <a href="#"><img src="image/image.png" alt="impuls" width="149" height="49" /></a>
+        </td>
+        <td>
+          <a href="#"><img src="image/image.png" alt="impuls" width="149" height="49" /></a>
+        </td>
+        <td>
+          <a href="#"><img src="image/image.png" alt="impuls" width="149" height="49" /></a>
+        </td>
+      </tr>
+    </table>
+
+    <section>
+      <h3 class="width-1110 font-700-24">Have you recently viewed</h3>
+      <div class="width-1110 flex">
+        <div class="card">
+          <a href="#"><img src="image/Rectangle 4.png" alt="green chair" width="125" height="166" />
+            <p class="font-400-14">Hairdressing chair "Norm" <br> hydraulic</p>
+            <p class="font-500-21">$300</p>
+            <button class="card-button">Buy</button>
+          </a>
+        </div>
+        <div class="card">
+          <a href="#"><img src="image/Rectangle 4.png" alt="green chair" width="125" height="166" />
+            <p class="font-400-14">Hairdressing chair "Norm" <br> hydraulic</p>
+            <p class="font-500-21">$300</p>
+            <button class="card-button">Buy</button>
+          </a>
+        </div>
+        <div class="card">
+          <a href="#"><img src="image/Rectangle 4.png" alt="green chair" width="125" height="166" />
+            <p class="font-400-14">Hairdressing chair "Norm" <br> hydraulic</p>
+            <p class="font-500-21">$300</p>
+            <button class="card-button">Buy</button>
+          </a>
+        </div>
+        <div class="card">
+          <a href="#"><img src="image/Rectangle 4.png" alt="green chair" width="125" height="166" />
+            <p class="font-400-14">Hairdressing chair "Norm" <br> hydraulic</p>
+            <p class="font-500-21">$300</p>
+            <button class="card-button">Buy</button>
+          </a>
+        </div>
+      </div>
+    </section>
+  </section>
+  <footer>
+    <section class="width-1110 flex">
+      <div>
+        <h3>Popular categories</h3>
+        <ul>
+          <a href="#">
+            <li>Нozzles</li>
+          </a>
+          <a href="#">
+            <li>Tools</li>
+          </a>
+          <a href="#">
+            <li>Gel polishes</li>
+          </a>
+          <a href="#">
+            <li>Design</li>
+          </a>
+          <a href="#">
+            <li>Building</li>
+          </a>
+          <a href="#">
+            <li>Equipment</li>
+          </a>
+        </ul>
+      </div>
+      <div>
+        <h3>Popular categories</h3>
+        <ul>
+          <a href="#">
+            <li>Нozzles</li>
+          </a>
+          <a href="#">
+            <li>Tools</li>
+          </a>
+          <a href="#">
+            <li>Gel polishes</li>
+          </a>
+          <a href="#">
+            <li>Design</li>
+          </a>
+          <a href="#">
+            <li>Building</li>
+          </a>
+          <a href="#">
+            <li>Equipment</li>
+          </a>
+        </ul>
+      </div>
+      <div>
+        <h3>Popular categories</h3>
+        <ul>
+          <a href="#">
+            <li>Нozzles</li>
+          </a>
+          <a href="#">
+            <li>Tools</li>
+          </a>
+          <a href="#">
+            <li>Gel polishes</li>
+          </a>
+          <a href="#">
+            <li>Design</li>
+          </a>
+          <a href="#">
+            <li>Building</li>
+          </a>
+          <a href="#">
+            <li>Equipment</li>
+          </a>
+        </ul>
+      </div>
+      <div>
+        <h3>Popular categories</h3>
+        <ul>
+          <a href="#">
+            <li>Нozzles</li>
+          </a>
+          <a href="#">
+            <li>Tools</li>
+          </a>
+          <a href="#">
+            <li>Gel polishes</li>
+          </a>
+          <a href="#">
+            <li>Design</li>
+          </a>
+          <a href="#">
+            <li>Building</li>
+          </a>
+          <a href="#">
+            <li>Equipment</li>
+          </a>
+        </ul>
+      </div>
+    </section>
+    <div>
+      <div>
+        <a href="#"><img src="image/Group 1.png" alt="youtube" /></a>
+      </div>
+      <div>
+        <a href="#"><img src="image/facebook.svg" alt="facebook" /></a>
+      </div>
+      <div>
+        <a href="#"><img src="image/instagram.svg" alt="instagram" /></a>
+      </div>
+    </div>
+    <div><a href="tel:1 (213) 123-45-67">1 (213) 123-45-67</a></div>
+    <div>
+      <a href="#"><button class="call-back-button">Call back</button></a>
+    </div>
+    <section class="bg-grey">
+      <p>
+        Best Store (c) 2019 All rights reserved. Online store of equipment for
+        beauty salons
+      </p>
+      <p>Privacy Policy</p>
+    </section>
+  </footer>
+</body>
+
 </html>
