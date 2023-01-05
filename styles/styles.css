@@ -78,6 +78,8 @@ hr {
 .mr-email {
   margin: 52px 46px 52px 73px;
 }
+.m-20-0 {
+}
 
 .car {
   margin: 56px 45px 56px 89px;
@@ -115,6 +117,15 @@ hr {
   text-align: center;
   margin: 38px 30px 80px 0px;
 }
+.font-head > a > li {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #333333;
+}
+
 
 .font-700-48 {
   font-style: normal;
@@ -129,7 +140,7 @@ hr {
   font-size: 12px;
   line-height: 14px;
   color: #828282;
-  margin:25px 0px ;
+  margin: 25px 0px;
 }
 .font-400-14-w {
   font-style: normal;
@@ -140,12 +151,17 @@ hr {
 }
 
 .font-400-14 {
-  font-size: 14px;
-  margin: 20px 0px;
+  margin: 25px 0px;
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #333333;
 }
 
 .font-400-16 {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -177,7 +193,7 @@ hr {
   font-style: Medium;
   font-size: 21px;
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .font-700-24 {
@@ -210,6 +226,7 @@ hr {
   color: #ffffff;
   border-radius: 30px;
   border: 0;
+  
 }
 
 .more-button {
@@ -261,13 +278,13 @@ input {
 }
 
 .impuls {
-  width: 1110px;
-  height: 358px;
-  margin: 0 auto;
   text-align: center;
   height: 358px;
   border-collapse: collapse;
   border-color: #efefef;
+}
+.td-width {
+  width: 270px;
 }
 .footer-nav {
   font-style: normal;
@@ -285,3 +302,7 @@ input {
 .footer-contacts {
   margin: 50px 0px 51px 0px;
 }
+.red {
+  background-color: red;
+}
+.m-right { margin-right: 595px;}
