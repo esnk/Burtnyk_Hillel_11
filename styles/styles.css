@@ -2,8 +2,6 @@
 
 * {
   font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
 }
 
 a {
@@ -53,6 +51,10 @@ hr {
 .mr {
   margin-right: 515px;
 }
+.mr-t-b-20 {
+  margin: 20px 0px;
+}
+.mr-t-b-25 {margin: 25px 0px;}
 
 .width-360 li {
   margin: 17px 30px 16px 0px;
@@ -70,17 +72,26 @@ hr {
 .mr-top-bot-100 {
   margin: 20px 30px 100px 0px;
 }
-
+.m-t-80 {
+  margin-top: 80px;
+}
 .ml {
   margin-left: 40px;
 }
-
+.mb-10 {
+  margin-bottom: 10px;
+}
 .mr-email {
   margin: 52px 46px 52px 73px;
 }
+.mt-35 {
+  margin-top: 35px;
+}
 .m-20-0 {
 }
-
+.pt-80 {
+  padding-top: 80px;
+}
 .car {
   margin: 56px 45px 56px 89px;
 }
@@ -117,17 +128,9 @@ hr {
   text-align: center;
   margin: 38px 30px 80px 0px;
 }
-.font-head > a > li {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  color: #333333;
-}
-
 
 .font-700-48 {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -135,14 +138,15 @@ hr {
   color: #ffffff;
 }
 .font-400-12-footer {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
   color: #828282;
-  margin: 25px 0px;
 }
 .font-400-14-w {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -151,7 +155,6 @@ hr {
 }
 
 .font-400-14 {
-  margin: 25px 0px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -184,31 +187,41 @@ hr {
   color: #828282;
 }
 .font-500-16 {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
+  line-height: 140.62%;
+  color: #000000;
 }
 
 .font-500-21 {
-  font-style: Medium;
-  font-size: 21px;
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
-  margin-bottom: 10px;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
 }
 
 .font-700-24 {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 700;
-  font-style: Bold;
   font-size: 24px;
-  padding-top: 80px;
+  line-height: 28px;
+  color: #000000;
 }
 
 .font-700-18-w {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  font-style: bold;
+  line-height: 21px;
   color: #ffffff;
-  margin-top: 35px;
 }
 
 .tell {
@@ -226,7 +239,14 @@ hr {
   color: #ffffff;
   border-radius: 30px;
   border: 0;
-  
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #ffffff;
 }
 
 .more-button {
@@ -237,6 +257,21 @@ hr {
   border-radius: 40px;
   border-color: #ffffff;
   border-style: solid;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+.email {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #c4c4c4;
 }
 
 .car-button {
@@ -247,6 +282,13 @@ hr {
   border-radius: 30px;
   border-color: #ffffff;
   border-style: solid;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .call-back-button {
@@ -277,11 +319,16 @@ input {
   border: none;
 }
 
+.impuls td {
+  padding-top: 32px;
+  width: 266px;
+  border: solid;
+  border-color: #efefef;
+  border-collapse: collapse;
+}
 .impuls {
   text-align: center;
   height: 358px;
-  border-collapse: collapse;
-  border-color: #efefef;
 }
 .td-width {
   width: 270px;
@@ -305,4 +352,6 @@ input {
 .red {
   background-color: red;
 }
-.m-right { margin-right: 595px;}
+.m-right {
+  margin-right: 595px;
+}
