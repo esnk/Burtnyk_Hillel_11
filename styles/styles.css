@@ -28,6 +28,12 @@ hr {
 .bg-pink {
   background-color: #f13c6e;
 }
+.bg-img {
+  margin: 0 auto;
+  width: 1920px;
+  height: 604px;
+  background-image: url(https://github.com/esnk/Burtnyk_Hillel_11/blob/main/image/Rectangle%202.png?raw=true);
+}
 
 .width-1110 {
   width: 1110px;
@@ -54,8 +60,10 @@ hr {
 .mr-t-b-20 {
   margin: 20px 0px;
 }
-.mr-t-b-25 {margin: 25px 0px;}
-
+.mr-t-b-25 {
+  margin: 25px 0px;
+}
+.ptb-190 {padding: 190px 0px;}
 .width-360 li {
   margin: 17px 30px 16px 0px;
 }
@@ -108,7 +116,7 @@ hr {
   clear: both;
 }
 
-.absolute {
+/* .absolute {
   position: absolute;
   top: 190px;
   left: 405px;
@@ -118,7 +126,7 @@ hr {
   position: relative;
   width: 1920px;
   margin: 0 auto;
-}
+} */
 
 .card {
   width: 255px;
